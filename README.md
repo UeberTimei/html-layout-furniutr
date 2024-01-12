@@ -2,7 +2,7 @@
 
 ## Overview
 
-HTML Layout Furniutr is layout of [this](<https://www.figma.com/file/BeJ7F91dnIOSwVdvcRwMqn/GreenShop-(Copy)?type=design&mode=design&t=UzznKXluGssAH2Ld-0>) design.
+HTML Layout Furniutr is layout of [this](<https://www.figma.com/file/pkjm16BennL0LwYjFrWPWP/Furniture-(Copy)?type=design&node-id=0-1&mode=design>) design.
 
 ## Features
 
