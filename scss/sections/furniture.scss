@@ -1,0 +1,88 @@
+@import "../mixins.scss";
+
+.furniture {
+  .wrapper {
+    max-width: 1220px;
+    margin-bottom: 357px;
+    .furniture-wrapper {
+      @include flex_center(column, start);
+      .furniture-text {
+        @include flex_center(column, start);
+        padding-bottom: 87px;
+        margin-left: -138px;
+
+        .furniture-text-more {
+          @include typography(#000, "Montserrat", 40px, 600, normal);
+        }
+        .furniture-text-furniture {
+          @include typography(white, "Montserrat", 100px, 700, normal);
+          text-shadow: 0 0 1rem #282a30, 0 0 1rem #282a30;
+        }
+      }
+      .furniture-cards {
+        @include flex_center(column, center);
+        position: relative;
+        left: 520px;
+        z-index: 10;
+        .furniture-card {
+          @include flex_center(row, center);
+          background-color: white;
+          position: absolute;
+          box-shadow: 20px 4px 100px 0px rgba(0, 0, 0, 0.1);
+          padding: 44px;
+          .furniture-card-num {
+            background-color: #f7515c0d;
+            border-radius: 1000px;
+            padding: 14px 19px;
+            color: #f7515c;
+            font-family: Ubuntu;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-bottom: 52px;
+          }
+          .furniture-card-text {
+            margin-left: 22px;
+            .furniture-card-text-title {
+              @include typography(#282a30, "Montserrat", 20px, 700, normal);
+              margin-bottom: 14px;
+            }
+            .furniture-card-text-desc {
+              @include typography(#282a3066, "Nunito", 14px, 400, normal);
+            }
+          }
+        }
+        .furniture-card_first {
+          top: 90px;
+          left: -650px;
+          .furniture-card-text {
+            max-width: 238px;
+          }
+        }
+        .furniture-card_second {
+          width: 449px;
+          left: 13px;
+          top: -51px;
+        }
+        .furniture-card_third {
+          width: 449px;
+          top: 460px;
+          left: 145px;
+        }
+      }
+      .furniture-thumb {
+        position: relative;
+        .furniture-img {
+          z-index: 0;
+        }
+        .furniture-img-decoration {
+          position: absolute;
+          z-index: -1;
+          bottom: -130px;
+          left: 69px;
+        }
+      }
+    }
+  }
+}

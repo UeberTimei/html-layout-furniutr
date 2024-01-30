@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
    License: none (public domain)
@@ -629,6 +630,122 @@ html {
   letter-spacing: 0.0625rem;
 }
 
+.furniture .wrapper {
+  max-width: 1220px;
+  margin-bottom: 357px;
+}
+.furniture .wrapper .furniture-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.furniture .wrapper .furniture-wrapper .furniture-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-bottom: 87px;
+  margin-left: -138px;
+}
+.furniture .wrapper .furniture-wrapper .furniture-text .furniture-text-more {
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.furniture .wrapper .furniture-wrapper .furniture-text .furniture-text-furniture {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-shadow: 0 0 1rem #282a30, 0 0 1rem #282a30;
+}
+.furniture .wrapper .furniture-wrapper .furniture-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 520px;
+  z-index: 10;
+}
+.furniture .wrapper .furniture-wrapper .furniture-cards .furniture-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  position: absolute;
+  box-shadow: 20px 4px 100px 0px rgba(0, 0, 0, 0.1);
+  padding: 44px;
+}
+.furniture .wrapper .furniture-wrapper .furniture-cards .furniture-card .furniture-card-num {
+  background-color: rgba(247, 81, 92, 0.0509803922);
+  border-radius: 1000px;
+  padding: 14px 19px;
+  color: #f7515c;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 52px;
+}
+.furniture .wrapper .furniture-wrapper .furniture-cards .furniture-card .furniture-card-text {
+  margin-left: 22px;
+}
+.furniture .wrapper .furniture-wrapper .furniture-cards .furniture-card .furniture-card-text .furniture-card-text-title {
+  color: #282a30;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 14px;
+}
+.furniture .wrapper .furniture-wrapper .furniture-cards .furniture-card .furniture-card-text .furniture-card-text-desc {
+  color: rgba(40, 42, 48, 0.4);
+  font-family: "Nunito";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.furniture .wrapper .furniture-wrapper .furniture-cards .furniture-card_first {
+  top: 90px;
+  left: -650px;
+}
+.furniture .wrapper .furniture-wrapper .furniture-cards .furniture-card_first .furniture-card-text {
+  max-width: 238px;
+}
+.furniture .wrapper .furniture-wrapper .furniture-cards .furniture-card_second {
+  width: 449px;
+  left: 13px;
+  top: -51px;
+}
+.furniture .wrapper .furniture-wrapper .furniture-cards .furniture-card_third {
+  width: 449px;
+  top: 460px;
+  left: 145px;
+}
+.furniture .wrapper .furniture-wrapper .furniture-thumb {
+  position: relative;
+}
+.furniture .wrapper .furniture-wrapper .furniture-thumb .furniture-img {
+  z-index: 0;
+}
+.furniture .wrapper .furniture-wrapper .furniture-thumb .furniture-img-decoration {
+  position: absolute;
+  z-index: -1;
+  bottom: -130px;
+  left: 69px;
+}
+
 .header .wrapper {
   max-width: 1240px;
   margin-top: 5rem;
@@ -772,6 +889,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-left: -138px;
 }
 .product .wrapper .product-wrapper .product-up {
   display: flex;
@@ -1054,7 +1172,121 @@ html {
   font-feature-settings: "clig" off, "liga" off;
   letter-spacing: 0.0625rem;
 }
-
+.furniture .wrapper {
+  max-width: 1220px;
+  margin-bottom: 357px;
+}
+.furniture .wrapper .furniture-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.furniture .wrapper .furniture-wrapper .furniture-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-bottom: 87px;
+  margin-left: -138px;
+}
+.furniture .wrapper .furniture-wrapper .furniture-text .furniture-text-more {
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.furniture .wrapper .furniture-wrapper .furniture-text .furniture-text-furniture {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-shadow: 0 0 1rem #282a30, 0 0 1rem #282a30;
+}
+.furniture .wrapper .furniture-wrapper .furniture-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 520px;
+  z-index: 10;
+}
+.furniture .wrapper .furniture-wrapper .furniture-cards .furniture-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  position: absolute;
+  box-shadow: 20px 4px 100px 0px rgba(0, 0, 0, 0.1);
+  padding: 44px;
+}
+.furniture .wrapper .furniture-wrapper .furniture-cards .furniture-card .furniture-card-num {
+  background-color: rgba(247, 81, 92, 0.0509803922);
+  border-radius: 1000px;
+  padding: 14px 19px;
+  color: #f7515c;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 52px;
+}
+.furniture .wrapper .furniture-wrapper .furniture-cards .furniture-card .furniture-card-text {
+  margin-left: 22px;
+}
+.furniture .wrapper .furniture-wrapper .furniture-cards .furniture-card .furniture-card-text .furniture-card-text-title {
+  color: #282a30;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 14px;
+}
+.furniture .wrapper .furniture-wrapper .furniture-cards .furniture-card .furniture-card-text .furniture-card-text-desc {
+  color: rgba(40, 42, 48, 0.4);
+  font-family: "Nunito";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.furniture .wrapper .furniture-wrapper .furniture-cards .furniture-card_first {
+  top: 90px;
+  left: -650px;
+}
+.furniture .wrapper .furniture-wrapper .furniture-cards .furniture-card_first .furniture-card-text {
+  max-width: 238px;
+}
+.furniture .wrapper .furniture-wrapper .furniture-cards .furniture-card_second {
+  width: 449px;
+  left: 13px;
+  top: -51px;
+}
+.furniture .wrapper .furniture-wrapper .furniture-cards .furniture-card_third {
+  width: 449px;
+  top: 460px;
+  left: 145px;
+}
+.furniture .wrapper .furniture-wrapper .furniture-thumb {
+  position: relative;
+}
+.furniture .wrapper .furniture-wrapper .furniture-thumb .furniture-img {
+  z-index: 0;
+}
+.furniture .wrapper .furniture-wrapper .furniture-thumb .furniture-img-decoration {
+  position: absolute;
+  z-index: -1;
+  bottom: -130px;
+  left: 69px;
+}
 .header .wrapper {
   max-width: 1240px;
   margin-top: 5rem;
@@ -1196,6 +1428,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-left: -138px;
 }
 .product .wrapper .product-wrapper .product-up {
   display: flex;
