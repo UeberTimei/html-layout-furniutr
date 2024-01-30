@@ -532,6 +532,97 @@ html {
   gap: 85px;
 }
 
+.main .wrapper {
+  max-width: 1220px;
+}
+.main .wrapper .main-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 87px;
+  position: relative;
+}
+.main .wrapper .main-wrapper .main-red_rectangle {
+  position: absolute;
+  width: 35px;
+  height: 264px;
+  background: #f7515c;
+  top: 24px;
+  left: -113px;
+  line-height: 0;
+}
+.main .wrapper .main-wrapper .main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 47px;
+  margin-top: -100px;
+  margin-left: -34px;
+}
+.main .wrapper .main-wrapper .main-text .main-text-title {
+  color: #f7515c;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+.main .wrapper .main-wrapper .main-text .main-text-attention {
+  color: #282a30;
+  font-family: "Montserrat";
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.main .wrapper .main-wrapper .main-text .main-text-func_part {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.main .wrapper .main-wrapper .main-text .main-text-func_part .main-text-func_part-button {
+  border: none;
+  background: #f7515c;
+  padding: 26px 54px;
+  margin-right: 67px;
+}
+.main .wrapper .main-wrapper .main-text .main-text-func_part .main-text-func_part-button .main-text-func_part-button-text {
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.main .wrapper .main-wrapper .main-text .main-text-func_part .main-text-func_part-button-play {
+  border: none;
+  background-color: white;
+  filter: drop-shadow(0px 4px 70px rgba(0, 0, 0, 0.15));
+  border-radius: 1000px;
+  padding: 18px;
+  margin-right: 24px;
+}
+.main .wrapper .main-wrapper .main-text .main-text-func_part .main-text-func_part-text {
+  color: #282a30;
+  font-family: "Montserrat";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.main .wrapper .main-wrapper .main-thumb {
+  position: relative;
+}
+.main .wrapper .main-wrapper .main-thumb .main-img-decoration {
+  position: absolute;
+  top: 20px;
+  right: -72px;
+  z-index: -1;
+}
+
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
@@ -636,4 +727,93 @@ html {
   align-items: center;
   gap: 85px;
 }
-
+.main .wrapper {
+  max-width: 1220px;
+}
+.main .wrapper .main-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 87px;
+  position: relative;
+}
+.main .wrapper .main-wrapper .main-red_rectangle {
+  position: absolute;
+  width: 35px;
+  height: 264px;
+  background: #f7515c;
+  top: 24px;
+  left: -113px;
+  line-height: 0;
+}
+.main .wrapper .main-wrapper .main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 47px;
+  margin-top: -100px;
+  margin-left: -34px;
+}
+.main .wrapper .main-wrapper .main-text .main-text-title {
+  color: #f7515c;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+.main .wrapper .main-wrapper .main-text .main-text-attention {
+  color: #282a30;
+  font-family: "Montserrat";
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.main .wrapper .main-wrapper .main-text .main-text-func_part {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.main .wrapper .main-wrapper .main-text .main-text-func_part .main-text-func_part-button {
+  border: none;
+  background: #f7515c;
+  padding: 26px 54px;
+  margin-right: 67px;
+}
+.main .wrapper .main-wrapper .main-text .main-text-func_part .main-text-func_part-button .main-text-func_part-button-text {
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.main .wrapper .main-wrapper .main-text .main-text-func_part .main-text-func_part-button-play {
+  border: none;
+  background-color: white;
+  filter: drop-shadow(0px 4px 70px rgba(0, 0, 0, 0.15));
+  border-radius: 1000px;
+  padding: 18px;
+  margin-right: 24px;
+}
+.main .wrapper .main-wrapper .main-text .main-text-func_part .main-text-func_part-text {
+  color: #282a30;
+  font-family: "Montserrat";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.main .wrapper .main-wrapper .main-thumb {
+  position: relative;
+}
+.main .wrapper .main-wrapper .main-thumb .main-img-decoration {
+  position: absolute;
+  top: 20px;
+  right: -72px;
+  z-index: -1;
+}

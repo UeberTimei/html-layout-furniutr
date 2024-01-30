@@ -1,0 +1,67 @@
+@import "../mixins.scss";
+
+.main {
+  .wrapper {
+    max-width: 1220px;
+    .main-wrapper {
+      @include flex_center(row, center);
+      gap: 87px;
+
+      position: relative;
+      .main-red_rectangle {
+        position: absolute;
+        width: 35px;
+        height: 264px;
+        background: #f7515c;
+        top: 24px;
+        left: -113px;
+        line-height: 0;
+      }
+      .main-text {
+        @include flex_center(column, start);
+        gap: 47px;
+        margin-top: -100px;
+        margin-left: -34px;
+
+        .main-text-title {
+          @include typography(#f7515c, "Poppins", 20px, 700, 100%);
+        }
+        .main-text-attention {
+          @include typography(#282a30, "Montserrat", 55px, 700, normal);
+        }
+        .main-text-func_part {
+          @include flex_center(row, center);
+          .main-text-func_part-button {
+            border: none;
+            background: #f7515c;
+            padding: 26px 54px;
+            margin-right: 67px;
+            .main-text-func_part-button-text {
+              @include typography(#fff, "Montserrat", 22px, 600, normal);
+            }
+          }
+          .main-text-func_part-button-play {
+            border: none;
+            background-color: white;
+            filter: drop-shadow(0px 4px 70px rgba(0, 0, 0, 0.15));
+            border-radius: 1000px;
+            padding: 18px;
+            margin-right: 24px;
+          }
+          .main-text-func_part-text {
+            @include typography(#282a30, "Montserrat", 22px, 600, normal);
+          }
+        }
+      }
+      .main-thumb {
+        position: relative;
+        .main-img-decoration {
+          position: absolute;
+          top: 20px;
+          right: -72px;
+          z-index: -1;
+        }
+      }
+    }
+  }
+}
