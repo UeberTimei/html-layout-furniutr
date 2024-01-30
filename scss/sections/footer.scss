@@ -1,0 +1,40 @@
+@import "../mixins.scss";
+
+.footer {
+  .wrapper {
+    max-width: 1240px;
+    padding-bottom: 100px;
+    .footer-wrapper {
+      .footer-line {
+        @include flex_center(column, center);
+        height: 2px;
+        background: #282a30;
+        margin-bottom: 100px;
+      }
+      .footer-lists {
+        @include flex_center(row, start);
+        justify-content: space-between;
+        .footer-list {
+          @include flex_center(column, start);
+          .footer-list-title {
+            max-width: 180px;
+            padding-bottom: 2.5rem;
+
+            @include typography(#282a30, "Montserrat", 1.625rem, 600, 120%);
+            font-feature-settings: "clig" off, "liga" off;
+            letter-spacing: 0.0625rem;
+          }
+          .footer-list-items {
+            @include flex_center(column, start);
+            gap: 27px;
+            .footer-list-item {
+              @include typography(#282a30cc, "Montserrat", 1.125rem, 400, 120%);
+              font-feature-settings: "clig" off, "liga" off;
+              letter-spacing: 0.0625rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
