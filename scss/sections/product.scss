@@ -1,0 +1,59 @@
+@import "../mixins.scss";
+
+.product {
+  .wrapper {
+    max-width: 1220px;
+    margin-bottom: 278px;
+    .product-wrapper {
+      @include flex_center(column, center);
+      .product-up {
+        @include flex_center(row, end);
+        justify-content: space-between;
+        gap: 640px;
+        .product-suggest {
+          margin-right: auto;
+          @include typography(#282a30, "Montserrat", 40px, 600, normal);
+        }
+        .product-text {
+          @include typography(white, "Montserrat", 100px, 700, normal);
+          text-shadow: 0 0 1rem #282a30, 0 0 1rem #282a30;
+        }
+        .product-up-arrows {
+          @include flex_center(row, center);
+          & > button {
+            border-radius: 10px;
+            border: 2px solid #282a30;
+            padding: 18px 20px;
+          }
+          gap: 3rem;
+        }
+      }
+      .product-list {
+        @include flex_center(row, center);
+        gap: 2.25rem;
+        .product-list-item {
+          @include flex_center(column, center);
+          .product-list-item-thumb {
+            margin-bottom: 44px;
+            .product-list-item-img {
+              max-width: 278px;
+              max-height: 312px;
+              object-fit: none;
+              object-position: 50% 50%;
+            }
+          }
+          .product-list-item-text {
+            @include flex_center(column, center);
+            .product-list-item-text-title {
+              @include typography(#282a30, "Montserrat", 22px, 700, normal);
+              margin-bottom: 17px;
+            }
+            .product-list-item-text-price {
+              @include typography(#282a304d, "Montserrat", 22px, 400, normal);
+            }
+          }
+        }
+      }
+    }
+  }
+}

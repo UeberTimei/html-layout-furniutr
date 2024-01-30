@@ -1,0 +1,42 @@
+@import "../mixins.scss";
+
+.explore {
+  .wrapper {
+    max-width: 1220px;
+    padding-bottom: 9.25rem;
+    .explore-wrapper {
+      @include flex_center(row, center);
+      gap: 218px;
+      .explore-left {
+        .explore-left-text {
+          @include flex_center(column, start);
+          margin-bottom: 4rem;
+          .explore-left-text-lets {
+            @include typography(white, "Montserrat", 6.25rem, 700, normal);
+            text-shadow: 0 0 1rem #282a30, 0 0 1rem #282a30;
+          }
+          .explore-left-text-try {
+            @include typography(#282a30, "Montserrat", 6.25rem, 700, normal);
+          }
+        }
+        .explore-left-button {
+          border: none;
+          background: #f7515c;
+          padding: 29px 69px;
+          .explore-left-button-text {
+            @include typography(#ffeded, "Montserrat", 26px, 600, normal);
+          }
+        }
+      }
+      .explore-thumb {
+        position: relative;
+        .explore-img-decoration {
+          position: absolute;
+          z-index: -1;
+          top: 30rem;
+          right: -3rem;
+        }
+      }
+    }
+  }
+}
