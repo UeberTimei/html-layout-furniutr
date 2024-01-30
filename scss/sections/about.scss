@@ -1,0 +1,59 @@
+@import "../mixins.scss";
+
+.about {
+  .wrapper {
+    max-width: 1220px;
+    padding-bottom: 20rem;
+    .about-wrapper {
+      @include flex-center(row, center);
+      gap: 8rem;
+      .about-thumb {
+        position: relative;
+        .about-black_rectangle {
+          background: #282a30;
+        }
+        .black_rectangle_1 {
+          position: absolute;
+          width: 205px;
+          height: 180px;
+          z-index: -1;
+          left: -3rem;
+          top: 32.5rem;
+        }
+        .black_rectangle_2 {
+          position: absolute;
+          width: 440px;
+          height: 305px;
+          z-index: -1;
+          right: -3rem;
+          top: 21rem;
+        }
+      }
+      .about-text {
+        @include flex-center(column, start);
+
+        .about-text-about {
+          @include typography(#282a30, "Montserrat", 3.75rem, 700, normal);
+        }
+        .about-text-furniture {
+          @include typography(white, "Montserrat", 6.25rem, 700, normal);
+          text-shadow: 0 0 1rem #282a30, 0 0 1rem #282a30;
+          margin-bottom: 3rem;
+        }
+        .about-text-desc {
+          @include typography(#282a3080, "Nunito", 22px, 400, 240%);
+          max-width: 518px;
+          margin-bottom: 3rem;
+        }
+        .about-text-button {
+          border: none;
+          background: #f7515c;
+          padding: 26px 52px;
+          .about-text-button-text {
+            @include typography(white, "Montserrat", 22px, 600, normal);
+          }
+        }
+      }
+    }
+  }
+}

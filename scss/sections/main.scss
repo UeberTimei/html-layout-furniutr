@@ -3,6 +3,7 @@
 .main {
   .wrapper {
     max-width: 1220px;
+    padding-bottom: 20rem;
     .main-wrapper {
       @include flex_center(row, center);
       gap: 87px;

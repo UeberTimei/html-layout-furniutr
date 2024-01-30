@@ -434,6 +434,87 @@ html {
   box-sizing: inherit;
 }
 
+.about .wrapper {
+  max-width: 1220px;
+  padding-bottom: 20rem;
+}
+.about .wrapper .about-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+}
+.about .wrapper .about-wrapper .about-thumb {
+  position: relative;
+}
+.about .wrapper .about-wrapper .about-thumb .about-black_rectangle {
+  background: #282a30;
+}
+.about .wrapper .about-wrapper .about-thumb .black_rectangle_1 {
+  position: absolute;
+  width: 205px;
+  height: 180px;
+  z-index: -1;
+  left: -3rem;
+  top: 32.5rem;
+}
+.about .wrapper .about-wrapper .about-thumb .black_rectangle_2 {
+  position: absolute;
+  width: 440px;
+  height: 305px;
+  z-index: -1;
+  right: -3rem;
+  top: 21rem;
+}
+.about .wrapper .about-wrapper .about-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.about .wrapper .about-wrapper .about-text .about-text-about {
+  color: #282a30;
+  font-family: "Montserrat";
+  font-size: 3.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.about .wrapper .about-wrapper .about-text .about-text-furniture {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 6.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-shadow: 0 0 1rem #282a30, 0 0 1rem #282a30;
+  margin-bottom: 3rem;
+}
+.about .wrapper .about-wrapper .about-text .about-text-desc {
+  color: rgba(40, 42, 48, 0.5019607843);
+  font-family: "Nunito";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 240%;
+  max-width: 518px;
+  margin-bottom: 3rem;
+}
+.about .wrapper .about-wrapper .about-text .about-text-button {
+  border: none;
+  background: #f7515c;
+  padding: 26px 52px;
+}
+.about .wrapper .about-wrapper .about-text .about-text-button .about-text-button-text {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
 .footer .wrapper {
   max-width: 1240px;
   padding-bottom: 100px;
@@ -534,6 +615,7 @@ html {
 
 .main .wrapper {
   max-width: 1220px;
+  padding-bottom: 20rem;
 }
 .main .wrapper .main-wrapper {
   display: flex;
@@ -628,7 +710,86 @@ html {
   margin: 0 auto;
 }
 
-
+.about .wrapper {
+  max-width: 1220px;
+  padding-bottom: 20rem;
+}
+.about .wrapper .about-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+}
+.about .wrapper .about-wrapper .about-thumb {
+  position: relative;
+}
+.about .wrapper .about-wrapper .about-thumb .about-black_rectangle {
+  background: #282a30;
+}
+.about .wrapper .about-wrapper .about-thumb .black_rectangle_1 {
+  position: absolute;
+  width: 205px;
+  height: 180px;
+  z-index: -1;
+  left: -3rem;
+  top: 32.5rem;
+}
+.about .wrapper .about-wrapper .about-thumb .black_rectangle_2 {
+  position: absolute;
+  width: 440px;
+  height: 305px;
+  z-index: -1;
+  right: -3rem;
+  top: 21rem;
+}
+.about .wrapper .about-wrapper .about-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.about .wrapper .about-wrapper .about-text .about-text-about {
+  color: #282a30;
+  font-family: "Montserrat";
+  font-size: 3.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.about .wrapper .about-wrapper .about-text .about-text-furniture {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 6.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-shadow: 0 0 1rem #282a30, 0 0 1rem #282a30;
+  margin-bottom: 3rem;
+}
+.about .wrapper .about-wrapper .about-text .about-text-desc {
+  color: rgba(40, 42, 48, 0.5019607843);
+  font-family: "Nunito";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 240%;
+  max-width: 518px;
+  margin-bottom: 3rem;
+}
+.about .wrapper .about-wrapper .about-text .about-text-button {
+  border: none;
+  background: #f7515c;
+  padding: 26px 52px;
+}
+.about .wrapper .about-wrapper .about-text .about-text-button .about-text-button-text {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
 
 .footer .wrapper {
   max-width: 1240px;
@@ -729,6 +890,7 @@ html {
 }
 .main .wrapper {
   max-width: 1220px;
+  padding-bottom: 20rem;
 }
 .main .wrapper .main-wrapper {
   display: flex;
