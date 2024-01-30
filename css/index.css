@@ -490,6 +490,48 @@ html {
   letter-spacing: 0.0625rem;
 }
 
+.header .wrapper {
+  max-width: 1240px;
+  margin-top: 5rem;
+  margin-bottom: 5.5rem;
+}
+.header .wrapper .header-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.header .wrapper .header-wrapper .header-logo-thumb {
+  margin-right: 145px;
+}
+.header .wrapper .header-wrapper .header-nav {
+  margin-right: 193px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 106px;
+}
+.header .wrapper .header-wrapper .header-nav .header-nav-button {
+  border: none;
+  background: none;
+  color: #282a30;
+  font-family: "Nunito Sans";
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  font-feature-settings: "clig" off, "liga" off;
+  letter-spacing: 1px;
+}
+.header .wrapper .header-wrapper .header-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 85px;
+}
+
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
@@ -553,5 +595,45 @@ html {
   letter-spacing: 0.0625rem;
 }
 
-
+.header .wrapper {
+  max-width: 1240px;
+  margin-top: 5rem;
+  margin-bottom: 5.5rem;
+}
+.header .wrapper .header-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.header .wrapper .header-wrapper .header-logo-thumb {
+  margin-right: 145px;
+}
+.header .wrapper .header-wrapper .header-nav {
+  margin-right: 193px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 106px;
+}
+.header .wrapper .header-wrapper .header-nav .header-nav-button {
+  border: none;
+  background: none;
+  color: #282a30;
+  font-family: "Nunito Sans";
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  font-feature-settings: "clig" off, "liga" off;
+  letter-spacing: 1px;
+}
+.header .wrapper .header-wrapper .header-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 85px;
+}
 

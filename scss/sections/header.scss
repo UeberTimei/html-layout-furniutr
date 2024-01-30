@@ -1,0 +1,34 @@
+@import "../mixins.scss";
+
+.header {
+  .wrapper {
+    max-width: 1240px;
+    margin-top: 5rem;
+    margin-bottom: 5.5rem;
+    .header-wrapper {
+      @include flex_center(row, center);
+
+      .header-logo-thumb {
+        margin-right: 145px;
+      }
+      .header-nav {
+        margin-right: 193px;
+
+        @include flex_center(row, center);
+        gap: 106px;
+        .header-nav-button {
+          border: none;
+          background: none;
+
+          @include typography(#282a30, "Nunito Sans", 19px, 400, 120%);
+          font-feature-settings: "clig" off, "liga" off;
+          letter-spacing: 1px;
+        }
+      }
+      .header-buttons {
+        @include flex_center(row, center);
+        gap: 85px;
+      }
+    }
+  }
+}
