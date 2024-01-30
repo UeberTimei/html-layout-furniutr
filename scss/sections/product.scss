@@ -4,6 +4,7 @@
   .wrapper {
     max-width: 1220px;
     margin-bottom: 278px;
+
     .product-wrapper {
       @include flex_center(column, center);
       .product-up {
